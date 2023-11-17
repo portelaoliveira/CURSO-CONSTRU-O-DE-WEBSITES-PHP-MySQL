@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+th,
+td {
+    width: 300px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.2em;
+    border-top: 2px solid rgb(165, 160, 160);
+    border-bottom: 2px solid gray;
+}
+
+tr:hover {
+    background: red;
+}
+
+tr.cor-alternada {
+    background: #cccccc;
+}
+
+.preco {
+    text-align: right;
+}

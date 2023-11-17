@@ -1,0 +1,219 @@
+/* Formatação padrão */
+
+
+/* O * faz a formatção para todo o corpo do código, caso não seja especificado em qual tag se deseja formatar.
+span tem um comportamento inline. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Formataçõa Body */
+
+body {
+    font-size: 1em;
+    font-family: "Audiowide", sans-serif;
+    background: #e6e6e6;
+}
+
+
+/* Layout */
+
+#cabecalho {
+    background: #5114A4;
+    text-align: center;
+    padding: 15px;
+    box-shadow: inset 2px -7px 11px rgba(0, 0, 0, 0.336);
+}
+
+#logo,
+#menu {
+    padding: 10px;
+}
+
+.branco {
+    color: white;
+}
+
+
+/* Links - Menu de navegações */
+
+
+/* Para que a formatação do menu fique só no menu e não no corpo da página, pegue o id (#cabecalho ) e coloque nos links. */
+
+a {
+    text-decoration: none;
+}
+
+#cabecalho a:link,
+#cabecalho a:visited {
+    color: white;
+    font-family: "Trirong", serif;
+    padding: 6px;
+}
+
+#cabecalho a:hover {
+    color: #5114A4;
+    background: white;
+}
+
+
+/* Contúdo da página */
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#postagens {
+    background: #e6e6e6;
+    width: 660px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.post {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Trirong", serif;
+    background: white;
+    -webkit-box-shadow: 0px 3px 5px 0px gray;
+    -moz-box-shadow: 0px 3px 5px 0px gray;
+    box-shadow: 0px 3px 5px 0px gray;
+}
+
+#menu-lateral {
+    background: #e6e6e6;
+    width: 240px;
+    float: right;
+}
+
+.lateral-conteudo {
+    font-family: "Trirong", serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    -webkit-box-shadow: 0px 3px 5px 0px gray;
+    -moz-box-shadow: 0px 3px 5px 0px gray;
+    box-shadow: 0px 3px 5px 0px gray;
+}
+
+
+/* Rodapé */
+
+#rodape {
+    text-align: center;
+    padding: 10px;
+    background: #ccc;
+    font-family: "Trirong", serif;
+    clear: both;
+}
+
+
+/* Links - Body */
+
+#principal a:link,
+#principal a:visited {
+    color: #5114A4;
+    font-family: "Trirong", serif;
+    padding: 3px;
+}
+
+#principal a {
+    font-family: "Trirong", serif;
+    color: #e09deb;
+    border-left: 4px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+}
+
+#principal a:hover {
+    padding-left: 10px;
+    border-left: 4px solid #e09deb;
+    color: #e09deb;
+    transition: .4s;
+}
+
+
+/* Formatações Gerais */
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Audiowide", sans-serif;
+    color: #5114A4;
+}
+
+h3 {
+    font-family: "Audiowide", sans-serif;
+    color: #5114A4;
+    background: #f3e5f5;
+    padding: 5px 10px;
+    margin-bottom: 6px;
+}
+
+h4 {
+    font-family: "Audiowide", sans-serif;
+    color: #5114A4;
+    padding-top: 5px;
+}
+
+.data-post {
+    font-family: "Trirong", serif;
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5114A4;
+}
+
+
+/*======================
+    404 page
+=======================*/
+
+#page {
+    text-align: center;
+}
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulários</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilosCSS/estilo-formulario.css">
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Informações Pessoais</legend>
+            <div>
+                <label for="nome">Nome: </label><input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail: </label><input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone: </label><input type="text" name="telefone" id="telefone">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Mensagem</legend>
+            <div>
+                <label for="comentario">Comentários: </label>
+                <textarea type="text" name="comentario" id="comentario"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+            <div>
+                <input type="radio" name="sexo" id="masculino"> <label for="masculino" class="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="feminino"> <label for="feminino" class="sexo">Feminino</label>
+            </div>
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>

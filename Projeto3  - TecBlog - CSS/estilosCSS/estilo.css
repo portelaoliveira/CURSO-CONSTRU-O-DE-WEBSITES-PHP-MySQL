@@ -1,0 +1,133 @@
+body {
+    background: #f3e5f5;
+}
+
+#principal {
+    text-align: center;
+}
+
+#cabecalho {
+    background: #9c27b0;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: inset 2px -7px 11px rgba(0, 0, 0, 0.336);
+}
+
+#menu {
+    padding: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.backgroundconteudo {
+    background: #efdcf1;
+    width: 650px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    -webkit-box-shadow: 0px 3px 5px 0px #4a148c;
+    -moz-box-shadow: 0px 3px 5px 0px #4a148c;
+    box-shadow: 0px 3px 5px 0px #4a148c;
+}
+
+a {
+    text-decoration: none;
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+    color: #e1bee7;
+    border-left: 4px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+}
+
+a:hover {
+    padding-left: 10px;
+    border-left: 4px solid #e040fb;
+    color: #d500f9;
+    transition: .4s;
+}
+
+#tituloPrincipal {
+    font-family: "Audiowide", sans-serif;
+    padding-top: 3px;
+    font-size: 23px;
+}
+
+h2 {
+    font-family: "Trirong", serif;
+    text-align: left;
+}
+
+p {
+    font-family: "Trirong", serif;
+}
+
+.conteudo {
+    padding: 5px;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+}
+
+.postagem {
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+    font-family: "Trirong", serif;
+}
+
+.rodape {
+    background: #efdcf1;
+    height: 80px;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    -webkit-box-shadow: 0px 3px 5px 0px #4a148c;
+    -moz-box-shadow: 0px 3px 5px 0px #4a148c;
+    box-shadow: 0px 3px 5px 0px #4a148c;
+}
+
+.absolute1 {
+    position: absolute;
+    /* top bottom right left */
+    background: #efdcf1;
+    top: 196px;
+    right: 330px;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    width: 250px;
+    -webkit-box-shadow: 0px 3px 5px 0px #4a148c;
+    -moz-box-shadow: 0px 3px 5px 0px #4a148c;
+    box-shadow: 0px 3px 5px 0px #4a148c;
+    font-size: 14px;
+    font-family: "Trirong", serif;
+}
+
+h3 {
+    padding: 5px;
+    background: #9c27b0;
+}
+
+hr {
+    border-color: #9c27b0;
+}
+
+.absolute2 {
+    position: absolute;
+    /* top bottom right left */
+    background: #efdcf1;
+    top: 540px;
+    right: 330px;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    width: 250px;
+    -webkit-box-shadow: 0px 3px 5px 0px #4a148c;
+    -moz-box-shadow: 0px 3px 5px 0px #4a148c;
+    box-shadow: 0px 3px 5px 0px #4a148c;
+    font-size: 14px;
+    font-family: "Trirong", serif;
+}

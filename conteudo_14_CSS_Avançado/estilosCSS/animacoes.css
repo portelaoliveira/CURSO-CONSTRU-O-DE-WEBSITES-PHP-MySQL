@@ -1,0 +1,33 @@
+@keyframes animacao-caixa {
+    from {
+        background: red;
+        top: 0px;
+        left: 0px;
+        border-radius: 0px;
+    }
+    to {
+        background: blueviolet;
+        top: 500px;
+        left: 400px;
+        border-radius: 300px;
+    }
+}
+
+#caixa {
+    height: 300px;
+    width: 300px;
+    background: red;
+    margin: 20px;
+    animation-name: animacao-caixa;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    position: relative;
+    /* animation-direction: alternate: Mudança suave
+ 	animation: animacao-caixa 2s 2s 2 alternate;  
+	-webkit-animation: animacao-caixa 2s 2s 2 alternate; 
+	-moz-animation: animacao-caixa 2s 2s 2 alternate; 
+	-o-animation: animacao-caixa 2s 2s 2 alternate; 
+    */
+}

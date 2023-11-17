@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Play-With-Fire";
+    src: url("../play_with_fire/Play-With-Fire.woff");
+}
+
+h1 {
+    font-family: "Play-With-Fire";
+}

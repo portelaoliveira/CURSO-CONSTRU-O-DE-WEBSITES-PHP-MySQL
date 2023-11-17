@@ -1,0 +1,223 @@
+/* Formatações Gerais */
+
+body {
+    background: #f4f2ec url("../img/fundo.png") repeat-x;
+    font-family: "Sofia", sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #daa520;
+    font-family: Cinzel, serif;
+}
+
+
+/* Hearder */
+
+h1 {
+    font-family: Cinzel, serif;
+    color: white;
+    float: left;
+}
+
+h4 {
+    color: #68501a;
+}
+
+#titulo {
+    color: #ffc505b4;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    font-family: Cinzel, serif;
+    float: left;
+}
+
+nav ul li a {
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+nav ul li a:visited,
+nav ul li a:link {
+    color: #ffc505b4;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.637);
+    color: black;
+    border-left: 6px solid #bd9100;
+    transition: 0.8s;
+    padding-left: 10px;
+}
+
+
+/* Layout da Página */
+
+#conteudo {
+    width: 710px;
+    background: white;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+/* Vídeo */
+
+#video {
+    float: left;
+    margin-left: 26px;
+    width: 310px;
+}
+
+
+/* Mapa */
+
+#mapa {
+    float: right;
+    margin-right: 26px;
+    width: 310px;
+}
+
+#exposicoes {
+    float: left;
+    width: 310px;
+    padding: 26px;
+}
+
+#historia {
+    float: right;
+    width: 310px;
+    margin-right: 26px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+#exposicoes li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+#exposicoes a,
+#historia a {
+    font-family: "Sofia", sans-serif;
+    color: #daa520;
+}
+
+#exposicoes a:hover,
+#historia a:hover,
+footer a:hover {
+    color: #8d6b1d;
+    border-bottom: 1px solid #8d6b1d;
+    transition: 0.8s;
+}
+
+aside {
+    width: 360px;
+    background: #f4d195;
+    float: right;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* Visitas */
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#visita {
+    background: #b58500d0;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: Cinzel, serif;
+}
+
+#botom {
+    background: #b3871f;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 4px 4px #c18f00;
+    margin: 10px;
+}
+
+#botom:hover {
+    background: #ffc505b4;
+}
+
+#qdt {
+    width: 40px;
+    margin: 5px;
+    border: none;
+}
+
+#data {
+    width: 150px;
+    margin: 5px;
+    border: none;
+}
+
+
+/* Galeria de fotos */
+
+#fotos a {
+    background: url("../img/fundo-foto.png") repeat-y;
+    display: block;
+    padding: 19px 15px 15px 15px;
+    float: left;
+    margin: 10px;
+}
+
+#fotos a:hover {
+    background: #edc27185 url("../img/fundo-foto.png") repeat-y;
+}
+
+h4 {
+    font-family: Cinzel, serif;
+    font-weight: bold;
+}
+
+section#fotos {
+    padding: 30px;
+    background: #f4d195;
+}
+
+#foto-museu {
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/* Rodapé - Footer */
+
+footer {
+    clear: both;
+    text-align: center;
+    background: url("../img/fundo-rodape.png") no-repeat center top;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer a {
+    padding: 5px 10px;
+}

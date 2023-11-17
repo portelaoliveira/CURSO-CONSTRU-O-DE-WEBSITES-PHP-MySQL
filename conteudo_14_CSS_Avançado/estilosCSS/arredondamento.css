@@ -1,0 +1,34 @@
+/* A imagem tem 300 x 300 px, se colocar a metade dessa dimensão, a imagem fica redonda 
+ border-radius: 20px 90px 10px 10px;
+ border-radius: 150px;
+*/
+
+
+/* Arredondamento */
+
+.perfil {
+    border-radius: 150px;
+    margin: 20px;
+}
+
+
+/* Box sizing */
+
+#caixa {
+    background: gray;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 50px;
+}
+
+#caixa2 {
+    background: gray;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 50px;
+    box-sizing: border-box;
+}

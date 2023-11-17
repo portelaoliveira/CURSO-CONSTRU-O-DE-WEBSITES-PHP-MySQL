@@ -1,0 +1,22 @@
+header {
+    background: navy;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+nav {
+    background: skyblue;
+    color: gray;
+    text-align: center;
+}
+
+article {
+    background: plum;
+    text-align: center;
+}
+
+footer {
+    background: grey;
+    text-align: center;
+}

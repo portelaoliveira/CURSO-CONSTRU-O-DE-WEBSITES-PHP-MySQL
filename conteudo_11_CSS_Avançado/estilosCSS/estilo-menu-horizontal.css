@@ -1,0 +1,68 @@
+/*
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-image: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+li {
+    padding: 20px 3px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-left: 4px solid rgb(252, 10, 252);
+    padding-left: 10px;
+}
+
+a:hover {
+    background: white;
+    color: purple;
+    padding: 10px;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-image: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+li {
+    padding: 20px 3px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-left: 2px solid;
+    border-image: linear-gradient(#ad5389, #3c1053)1;
+}
+
+a:hover {
+    background: white;
+    color: purple;
+    padding: 10px;
+}
+
+ul .primeiro a {
+    border: none;
+}
+
+#home .home a,
+#contato .contato a,
+#vendas .vendas a,
+#noticias .noticias a,
+#blog .blog a {
+    background-position: right;
+    color: white;
+    background-color: #d719dd;
+}

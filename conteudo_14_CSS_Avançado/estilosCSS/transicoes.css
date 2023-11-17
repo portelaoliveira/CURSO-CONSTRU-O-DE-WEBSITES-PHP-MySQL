@@ -1,0 +1,23 @@
+/* #caixa:hover {
+    background: red;
+    width: 600px;
+    transition: background 2s, width 3s;
+}
+ */
+
+#caixa {
+    height: 50px;
+    width: 50px;
+    background: blueviolet;
+    margin: 30px;
+}
+
+#caixa:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    transition: width 2s, height 2s, transform 2s;
+    -webkit-transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, transform 2s;
+    -o-transition: width 2s, height 2s, transform 2s;
+}

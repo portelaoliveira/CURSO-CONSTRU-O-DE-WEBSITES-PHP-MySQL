@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background: #643d87 url('../img/fundo.jpg') no-repeat top center fixed;
+    background-size: cover;
+}
+
+#principal {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#foto-perfil {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+#senha {
+    background-image: url('../img/icone-cadeado.png');
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 8px;
+}
+
+.usuario {
+    background-image: url('../img/icone-usuario.png');
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 8px;
+}
+
+.botao {
+    background-color: #f79300;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    font-size: 18px;
+    margin: 10px;
+    background: linear-gradient(#FAA600, #DD7D02);
+    -webkit-background: linear-gradient(#FAA600, #DD7D02);
+    -moz-background: linear-gradient(#FAA600, #DD7D02);
+}
+
+.botao2 {
+    background-color: #844CB6;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #462761;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    font-size: 18px;
+    margin: 10px;
+    background: linear-gradient(#844CB6, #462761);
+    -webkit-background: linear-gradient(#844CB6, #462761);
+    -moz-background: linear-gradient(#844CB6, #462761);
+}

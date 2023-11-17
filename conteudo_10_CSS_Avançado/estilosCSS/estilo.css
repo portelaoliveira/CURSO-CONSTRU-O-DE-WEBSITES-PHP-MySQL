@@ -1,0 +1,56 @@
+/* li>a, li>p, div>p ... 
+h1+p {
+    color: purple;
+}
+
+p.verde {
+    color: green;
+}
+
+li>a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+li a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+h1~p {
+    color: purple;
+}
+
+Herança 
+
+body {
+    color: red;
+}
+
+* {
+    color: red;
+    border: 1px solid red;
+}
+
+Especificidade
+
+h2 {
+    color: blue;
+}
+
+h2.verde {
+    color: green;
+}
+*/
+
+h2 {
+    color: blue;
+}
+
+h2.verde {
+    color: green;
+}
+
+h2#amarelo {
+    color: yellow;
+}

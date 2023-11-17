@@ -1,0 +1,15 @@
+.caixa {
+    padding: 60px 0px;
+    border: 1px solid #e5e5e5;
+}
+
+#link-footer:hover {
+    padding: 5px;
+    border: 1px solid #ffc107;
+}
+
+#link-nav:hover {
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+}

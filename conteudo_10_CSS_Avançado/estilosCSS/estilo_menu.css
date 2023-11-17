@@ -1,0 +1,60 @@
+/*
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #F000FC url("../imagens/menu.png");
+    text-decoration: none;
+    color: black;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+a:hover {
+    background-position: right;
+    color: white;
+    background-color: #79037E;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #F000FC url("../imagens/menu-seta-preta.png");
+    text-decoration: none;
+    color: black;
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+a:hover {
+    background-position: right;
+    color: white;
+    background-color: #79037E;
+}
+
+
+/* #home .home: Formata o botão home quando estiver dentro da página home */
+
+#home .home a,
+#contato .contato a,
+#vendas .vendas a,
+#noticias .noticias a,
+#blog .blog a {
+    background-position: right;
+    color: white;
+    background-color: #193ADD;
+}
